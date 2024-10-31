@@ -7,7 +7,7 @@ import {
 	Navigate,
 	Link,
 } from 'react-router-dom'
-import Admin from './components/page/admin'
+import Admin from '../src/components/page/admin'
 
 function App() {
 	return (

@@ -1,7 +1,7 @@
 import './App.css'
 import Homepage from './components/layout/Homepage'
 import {
-	BrowserRouter as Router,
+	HashRouter as Router,
 	Route,
 	Routes,
 	Navigate,

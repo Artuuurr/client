@@ -15,6 +15,7 @@ function App() {
 			<Router>
 				<Routes>
 					<Route path='/' element={<Homepage />} />
+					<Route path='/Homepage' element={<Homepage />} />
 					<Route path='/admin' element={<Admin />} />
 					<Route path='*' element={<Navigate to='/' replace />} />
 				</Routes>

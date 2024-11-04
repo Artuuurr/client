@@ -1,7 +1,7 @@
 import './App.css'
 import Homepage from './components/layout/Homepage'
 import {
-	HashRouter as Router,
+	BrowserRouter as Router,
 	Route,
 	Routes,
 	Navigate,
@@ -13,9 +13,9 @@ function App() {
 	return (
 		<>
 			<Router>
+				<Link to={<Admin />}>Admin</Link>
 				<Routes>
 					<Route path='/' element={<Homepage />} />
-					<Route path='/Homepage' element={<Homepage />} />
 					<Route path='/admin' element={<Admin />} />
 					<Route path='*' element={<Navigate to='/' replace />} />
 				</Routes>

@@ -5,7 +5,6 @@ import {
 	Route,
 	Routes,
 	Navigate,
-	Link,
 } from 'react-router-dom'
 import Admin from '../src/components/page/admin'
 
@@ -13,7 +12,6 @@ function App() {
 	return (
 		<>
 			<Router>
-				<Link to={<Admin />}>Admin</Link>
 				<Routes>
 					<Route path='/' element={<Homepage />} />
 					<Route path='/admin' element={<Admin />} />
